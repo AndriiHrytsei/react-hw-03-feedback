@@ -1,7 +1,6 @@
 {
   "name": "react-hw-03-feedback",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://AndriiHrytsei.github.io/react-hw-03-feedback/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
