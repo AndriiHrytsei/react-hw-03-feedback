@@ -1,5 +1,5 @@
 
-export default function Statistics({ good, neutral, bad, total, positivePercentage}){
+export default function Statistics({ good, neutral, bad, total, positivePercentage = 0}){
     return(
         <>
             <h1 className="stats-heading">Statistics</h1>
