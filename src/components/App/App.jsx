@@ -10,27 +10,8 @@ export default class App extends Component {
     neutral: 0,
     bad: 0,
   }
-  
-  // addPositiveFeedback = () => {
-  //   this.setState(prevState => ({
-  //     good: prevState.good + 1,
-  //   }))
-  // }
-  // addNeutralFeedback = () => {
-  //   this.setState(prevState => ({
-  //     neutral: prevState.neutral + 1,
-  //   }))
-  // }
-  // addNegativeFeedback = () => {
-  //   this.setState(prevState => ({
-  //     bad: prevState.bad + 1,
-  //   }))
-  // }
   feedback = (e) => {
     this.setState(prevState => ({
-      // good: this.addPositiveFeedback,
-      // neutral: this.addNeutralFeedback,
-      // bad: this.addNegativeFeedback
       [e.target.name]: prevState[e.target.name] + 1
     }))
   }
