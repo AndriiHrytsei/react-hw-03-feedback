@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import css from './Stats.module.css'
 export default function Statistics({ good, neutral, bad, total, positivePercentage}){
     return(
         <>
             <h1 className="stats-heading">Statistics</h1>
-            <ul className="stats">
+            <ul className={css.stats}>
               <li className="good">Good: {good}</li>
               <li className="neutral">Neutral: {neutral}</li>
               <li className="bad">Bad: {bad}</li>
